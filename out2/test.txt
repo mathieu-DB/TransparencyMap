@@ -1,0 +1,35 @@
+./box_cov.png
+{"image1": "square_output.png", "image2": "./box_cov.png", "metrics": {"ssim": 0.9852374434640714}}
+{"image1": "square_output.png", "image2": "./box_cov.png", "metrics": {"rmse": 0.005327513907104731}}
+{"image1": "square_output.png", "image2": "./box_cov.png", "metrics": {"fsim": 0.7666154037872572}}
+{"image1": "square_output.png", "image2": "./box_cov.png", "metrics": {"psnr": 45.46951059034305}}
+./box_no_cov.png
+{"image1": "square_output.png", "image2": "./box_no_cov.png", "metrics": {"ssim": 0.9906224956062956}}
+{"image1": "square_output.png", "image2": "./box_no_cov.png", "metrics": {"rmse": 0.004379406571388245}}
+{"image1": "square_output.png", "image2": "./box_no_cov.png", "metrics": {"fsim": 0.7948451734326037}}
+{"image1": "square_output.png", "image2": "./box_no_cov.png", "metrics": {"psnr": 47.17169526746707}}
+./kaiser_cov.png
+{"image1": "square_output.png", "image2": "./kaiser_cov.png", "metrics": {"ssim": 0.9857616254965436}}
+{"image1": "square_output.png", "image2": "./kaiser_cov.png", "metrics": {"rmse": 0.005226055160164833}}
+{"image1": "square_output.png", "image2": "./kaiser_cov.png", "metrics": {"fsim": 0.770223453955761}}
+{"image1": "square_output.png", "image2": "./kaiser_cov.png", "metrics": {"psnr": 45.63651803663211}}
+./kaiser_no_cov.png
+{"image1": "square_output.png", "image2": "./kaiser_no_cov.png", "metrics": {"ssim": 0.9905062865998063}}
+{"image1": "square_output.png", "image2": "./kaiser_no_cov.png", "metrics": {"rmse": 0.0043935151770710945}}
+{"image1": "square_output.png", "image2": "./kaiser_no_cov.png", "metrics": {"fsim": 0.7854206624059324}}
+{"image1": "square_output.png", "image2": "./kaiser_no_cov.png", "metrics": {"psnr": 47.14375976255374}}
+./square_output.png
+{"image1": "square_output.png", "image2": "./square_output.png", "metrics": {"ssim": 1.0}}
+{"image1": "square_output.png", "image2": "./square_output.png", "metrics": {"rmse": 0.0}}
+{"image1": "square_output.png", "image2": "./square_output.png", "metrics": {"fsim": 1.0}}
+{"image1": "square_output.png", "image2": "./square_output.png", "metrics": {"psnr": Infinity}}
+./triangle_cov.png
+{"image1": "square_output.png", "image2": "./triangle_cov.png", "metrics": {"ssim": 0.9884414991185023}}
+{"image1": "square_output.png", "image2": "./triangle_cov.png", "metrics": {"rmse": 0.004702465143054724}}
+{"image1": "square_output.png", "image2": "./triangle_cov.png", "metrics": {"fsim": 0.7990624087183704}}
+{"image1": "square_output.png", "image2": "./triangle_cov.png", "metrics": {"psnr": 46.553487812785676}}
+./triangle_no_cov.png
+{"image1": "square_output.png", "image2": "./triangle_no_cov.png", "metrics": {"ssim": 0.9895808341886824}}
+{"image1": "square_output.png", "image2": "./triangle_no_cov.png", "metrics": {"rmse": 0.004541491158306599}}
+{"image1": "square_output.png", "image2": "./triangle_no_cov.png", "metrics": {"fsim": 0.7786598238812111}}
+{"image1": "square_output.png", "image2": "./triangle_no_cov.png", "metrics": {"psnr": 46.856031452922394}}

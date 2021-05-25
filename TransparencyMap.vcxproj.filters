@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{47d9a1fe-dfe8-474b-af2e-66a1b75f1558}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TransparencyMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_demo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_tables.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\grass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\transparent.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\transparent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\check.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_box_coverage.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_box_no_coverage.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_kaiser_coverage.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_kaiser_no_coverage.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_triangle_coverage.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_triangle_no_coverage.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\hole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\normal_DISP.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\bricks2_disp.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\bricks2_normal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\bricks2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\circle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\fullcircle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\fullcircle_DISP.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\fullcircle_NRM.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\circle_box_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\circle_box_no_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\circle_kaiser_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\circle_kaiser_no_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\circle_triangle_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\circle_triangle_no_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\shader.frag.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Shaders\shader.vert.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\stb_image_write.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
