@@ -158,11 +158,17 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Textures\abstract.png" />
+    <Image Include="Textures\abstract_box_cov.dds" />
     <Image Include="Textures\abstract_box_coverage.dds" />
+    <Image Include="Textures\abstract_box_no_cov.dds" />
     <Image Include="Textures\abstract_box_no_coverage.dds" />
+    <Image Include="Textures\abstract_kaiser_cov.dds" />
     <Image Include="Textures\abstract_kaiser_coverage.dds" />
+    <Image Include="Textures\abstract_kaiser_no_cov.dds" />
     <Image Include="Textures\abstract_kaiser_no_coverage.dds" />
+    <Image Include="Textures\abstract_triangle_cov.dds" />
     <Image Include="Textures\abstract_triangle_coverage.dds" />
+    <Image Include="Textures\abstract_triangle_no_cov.dds" />
     <Image Include="Textures\abstract_triangle_no_coverage.dds" />
     <Image Include="Textures\bricks2.jpg" />
     <Image Include="Textures\bricks2_disp.jpg" />
@@ -187,6 +193,8 @@
     <Image Include="Textures\transparent.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Shaders\parallax.frag.glsl" />
+    <None Include="Shaders\parallax.vert.glsl" />
     <None Include="Shaders\shader.frag.glsl" />
     <None Include="Shaders\shader.vert.glsl" />
   </ItemGroup>

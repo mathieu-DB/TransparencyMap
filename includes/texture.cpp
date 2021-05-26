@@ -1,3 +1,21 @@
+/*
+*
+*https://github.com/opengl-tutorials/ogl/blob/master/common/texture.cpp
+*http://www.opengl-tutorial.org/
+*
+* Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+* Licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported License (the “License”).
+* You may not use this file except in compliance with the License. You may obtain a copy of the License at
+* http://creativecommons.org/licenses/by-nc/4.0. Unless required by applicable law or
+* agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT
+* WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific
+* language governing permissions and limitations under the License.
+* 
+* Modifications :
+* May 2021
+* Mathieu David-Babin
+* mathieu.david-babin@umontreal.ca
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

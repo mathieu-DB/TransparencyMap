@@ -134,12 +134,36 @@
     <Image Include="Textures\circle_triangle_no_cov.dds">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="Textures\abstract_box_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_box_no_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_kaiser_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_kaiser_no_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_triangle_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\abstract_triangle_no_cov.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\shader.frag.glsl">
       <Filter>Source Files</Filter>
     </None>
     <None Include="Shaders\shader.vert.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Shaders\parallax.frag.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Shaders\parallax.vert.glsl">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
