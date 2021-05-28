@@ -123,14 +123,6 @@ int main()
 
 	const char* glsl_version = "#version 150";
 
-	/*sf::ContextSettings settings;
-
-	settings.majorVersion = 3;
-	settings.minorVersion = 3;
-	settings.depthBits = 24;
-	sf::RenderWindow window(sf::VideoMode(800, 600), "OpenGL", sf::Style::Default, settings);
-
-	window.setActive(true);*/
 	if (!glfwInit())
 		return EXIT_FAILURE;
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -151,11 +143,7 @@ int main()
 
 	glfwMakeContextCurrent(window);
 
-	//if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
-	//   {
-	//       std::cout << "Failed to initialize GLAD" << std::endl;
-	//       return -1;
-	//   }
+	
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 	glfwSetCursorPosCallback(window, mouse_callback);
 	glfwSetScrollCallback(window, scroll_callback);
@@ -323,7 +311,9 @@ int main()
 
 
 		renderQuad();
+		
 
+		//GUI CONTROLS UNCOMMENT REQUIRED PARTS IF NEEDED
 		 ////{
 		 ////    static float f = 0.0f;
 		 ////    static int counter = 0;
@@ -421,60 +411,6 @@ int main()
 	ImGui::DestroyContext();
 }
 
-std::string LoadFileContents(const std::string filePath) {
-	std::ifstream file(filePath);
-	std::stringstream sstream;
-
-	if (!file.is_open()) {
-		std::cout << "Could not find the file : " << filePath << std::endl;
-	}
-
-	sstream << file.rdbuf();
-
-	return sstream.str();
-}
-
-GLuint CreateShaderProgram(const GLchar* vertexShaderText, const GLchar* fragmentShaderText) {
-	GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
-	GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-	GLuint shaderProgram = glCreateProgram();
-
-	glShaderSource(vertexShader, 1, &vertexShaderText, nullptr);
-	glCompileShader(vertexShader);
-
-	GLint success;
-	GLchar infoLog[512];
-	glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &success);
-	if (!success) {
-		glGetShaderInfoLog(vertexShader, 512, nullptr, infoLog);
-		std::cout << "Vertex Shader compilation failed: " << infoLog << std::endl;
-	}
-
-	glShaderSource(fragmentShader, 1, &fragmentShaderText, nullptr);
-	glCompileShader(fragmentShader);
-
-	glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);
-	if (!success) {
-		glGetShaderInfoLog(fragmentShader, 512, nullptr, infoLog);
-		std::cout << "Fragment Shader compilation failed: " << infoLog << std::endl;
-	}
-
-	glAttachShader(shaderProgram, vertexShader);
-	glAttachShader(shaderProgram, fragmentShader);
-
-	glLinkProgram(shaderProgram);
-
-	glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
-	if (!success) {
-		glGetProgramInfoLog(shaderProgram, 512, nullptr, infoLog);
-		std::cout << "Program failed to link: " << infoLog << std::endl;
-	}
-
-	glDeleteShader(vertexShader);
-	glDeleteShader(fragmentShader);
-
-	return shaderProgram;
-}
 
 void processInput(GLFWwindow* window)
 {
