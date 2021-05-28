@@ -89,6 +89,7 @@ unsigned int parallax_kaiser_cov;
 unsigned int transparency;
 unsigned int normal;
 unsigned int displacement;
+unsigned int displacement2;
 
 Shader shader;
 Shader parallaxShader;
@@ -260,7 +261,7 @@ int main()
 
 	//14
 	glGenTextures(1, &displacement);
-	applyTexture("Textures/fullcircle_DISP.png", true, displacement, GL_LINEAR_MIPMAP_LINEAR);
+	applyTexture("Textures/fullcircle.png", true, displacement, GL_LINEAR_MIPMAP_LINEAR);
 
 	shader.use();
 	shader.setInt("diffuseMap", 12);
